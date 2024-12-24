@@ -33,7 +33,18 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-module exp2-1(a,b,c,d,f1); input a,b,cd; output f1; assign f1=((~B&~D)|(~A&B&D)|(A&B&~C)); endmodule module exp2-2(w,x,y,z,f2); input w,x,y,z; output f2; assign f2=((~y&z)|(x&y)|(w&y)); endmodule /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+```
+module exp2-1(a,b,c,d,f1);
+input a,b,cd;
+output f1;
+assign f1=((~B&~D)|(~A&B&D)|(A&B&~C));
+endmodule module exp2-2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y&z)|(x&y)|(w&y));
+endmodule
+```
+ /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 
 Developed by: RegisterNumber:*/24005701
 
